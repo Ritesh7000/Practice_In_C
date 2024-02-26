@@ -20,7 +20,7 @@ int main(void)
 
 	printf("sizeof(iNo)    =\t%d\n",sizeof(iNo));		//4
 	printf("sizeof(chChar) =\t%d\n",sizeof(chChar));	//1
-	printf("sizeof(fNo)    =\t%d\n",sizeof(fNo));		//8
+	printf("sizeof(fNo)    =\t%d\n",sizeof(fNo));		//4
 	printf("sizeof(dNo)    =\t%d\n\n",sizeof(dNo));		//8
 	
 
