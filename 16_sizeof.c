@@ -13,8 +13,8 @@ int main(void)
 	printf("sizeof(float)  =\t%d\n",sizeof(float));		//4
 	printf("sizeof(double) =\t%d\n\n",sizeof(double));	//8
 	
-	printf("sizeof(20)   =\t%d\n",sizeof(20));			//4
-	printf("sizeof('B')  =\t%d\n",sizeof('B'));			//4
+	printf("sizeof(20)   =\t%d\n",sizeof(20));		//4
+	printf("sizeof('B')  =\t%d\n",sizeof('B'));		//4
 	printf("sizeof(99.9) =\t%d\n",sizeof(99.9f));		//4
 	printf("sizeof(99.8) =\t%d\n\n",sizeof(99.8));		//8
 
@@ -24,15 +24,15 @@ int main(void)
 	printf("sizeof(dNo)    =\t%d\n\n",sizeof(dNo));		//8
 	
 
-	printf("sizeof 20     =\t%d\n",sizeof 20);			//4
-	printf("sizeof iNo    =\t%d\n",sizeof iNo);			//4
-	//printf("sizeof int  =\t%d\n",sizeof int);			//error
+	printf("sizeof 20     =\t%d\n",sizeof 20);		//4
+	printf("sizeof iNo    =\t%d\n",sizeof iNo);		//4
+	//printf("sizeof int  =\t%d\n",sizeof int);		//error
 	//printf("sizeof void =\t%d\n",sizeof void);		//error
 	
 
-	printf("\niNo         =\t%d\n",iNo);				//10
+	printf("\niNo         =\t%d\n",iNo);			//10
 	printf("sizeof(++iNo) =\t%d\n",sizeof(++iNo));		//4
-	printf("iNo           =\t%d\n",iNo);				//10
+	printf("iNo           =\t%d\n",iNo);			//10
 	printf("sizeof(void)  =\t%d\n",sizeof(void));		//0 & 1	
 	
 	return 0;
