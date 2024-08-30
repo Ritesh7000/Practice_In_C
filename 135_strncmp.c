@@ -8,8 +8,11 @@ int main(void)
 
 	printf("\n\nEnter string1:\t");
 	gets(string1);
+	
 	printf("\n\nEnter string2:\t");
+	
 	gets(string2);
+	
 	printf("\n\nEnter n:\t");
 	scanf("%d",&iNo);
 
